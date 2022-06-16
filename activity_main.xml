@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundhafez"
+    tools:context=".MainActivity" >
+
+    <Button
+        android:id="@+id/btnFal"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#152C67"
+        android:onClick="onClickFal"
+        android:text="فال حافظ"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnPoet"
+        android:layout_width="120dp"
+        android:layout_height="65dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:backgroundTint="#152C67"
+        android:onClick="onClickPoet"
+        android:text="بیوگرافی شاعران"
+        android:textSize="16sp"
+        app:cornerRadius="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#D56F9CEA"
+        android:backgroundTint="#D56F9CEA"
+        android:fontFamily="sans-serif-medium"
+        android:text="حافظ شیرازی"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="34sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.108" />
+</androidx.constraintlayout.widget.ConstraintLayout>
